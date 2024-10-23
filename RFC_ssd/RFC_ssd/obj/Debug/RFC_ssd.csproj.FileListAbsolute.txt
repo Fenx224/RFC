@@ -1,0 +1,7 @@
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.csprojResolveAssemblyReference.cache
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.MainForm.resources
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.csproj.GenerateResource.Cache
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\bin\Debug\RFC_ssd.exe
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\bin\Debug\RFC_ssd.pdb
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.exe
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.pdb
