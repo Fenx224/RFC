@@ -43,6 +43,8 @@ namespace RFC_ssd
 			this.label5 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
+			this.BTNcerrar = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -55,57 +57,85 @@ namespace RFC_ssd
 			// 
 			// label2
 			// 
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.Location = new System.Drawing.Point(26, 121);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(272, 23);
+			this.label2.Size = new System.Drawing.Size(94, 23);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Creado por: Jose de Jesus Zavala Garcia";
+			this.label2.Text = "Creado por:";
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(27, 148);
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(118, 148);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(145, 23);
+			this.label3.Size = new System.Drawing.Size(164, 23);
 			this.label3.TabIndex = 2;
 			this.label3.Text = "3ro de Programacion";
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(151, 219);
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.ForeColor = System.Drawing.Color.DarkRed;
+			this.label4.Location = new System.Drawing.Point(135, 222);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(100, 23);
+			this.label4.Size = new System.Drawing.Size(147, 30);
 			this.label4.TabIndex = 3;
 			this.label4.Text = "CBTis 217";
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(26, 171);
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.Location = new System.Drawing.Point(124, 177);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(146, 23);
+			this.label5.Size = new System.Drawing.Size(155, 23);
 			this.label5.TabIndex = 4;
 			this.label5.Text = "Metodologias agiles";
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(118, 60);
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.Location = new System.Drawing.Point(86, 42);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(136, 23);
+			this.label6.Size = new System.Drawing.Size(253, 23);
 			this.label6.TabIndex = 5;
 			this.label6.Text = "Calculadora de RFC";
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(151, 285);
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label7.Location = new System.Drawing.Point(168, 279);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(73, 23);
+			this.label7.Size = new System.Drawing.Size(86, 29);
 			this.label7.TabIndex = 6;
 			this.label7.Text = "22/10/24";
+			// 
+			// label8
+			// 
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label8.Location = new System.Drawing.Point(106, 121);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(259, 23);
+			this.label8.TabIndex = 7;
+			this.label8.Text = "Jose de Jesus Zavala Garcia";
+			// 
+			// BTNcerrar
+			// 
+			this.BTNcerrar.Location = new System.Drawing.Point(330, 366);
+			this.BTNcerrar.Name = "BTNcerrar";
+			this.BTNcerrar.Size = new System.Drawing.Size(75, 23);
+			this.BTNcerrar.TabIndex = 8;
+			this.BTNcerrar.Text = "Cerrar";
+			this.BTNcerrar.UseVisualStyleBackColor = true;
+			this.BTNcerrar.Click += new System.EventHandler(this.BTNcerrarClick);
 			// 
 			// AcercaDe
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(417, 401);
+			this.Controls.Add(this.BTNcerrar);
+			this.Controls.Add(this.label8);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.label5);
@@ -117,6 +147,8 @@ namespace RFC_ssd
 			this.Text = "AcercaDe";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button BTNcerrar;
+		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Label label5;

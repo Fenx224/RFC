@@ -28,5 +28,10 @@ namespace RFC_ssd
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BTNcerrarClick(object sender, EventArgs e)
+		{
+			Close();
+		}
 	}
 }
