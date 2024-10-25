@@ -67,5 +67,11 @@ namespace RFC_ssd
 				MessageBox.Show("Debes de llenar todos los campos");
 			}
 		}
+		
+		void BTNacercaClick(object sender, EventArgs e)
+		{
+			AcercaDe acerca = new AcercaDe();
+			acerca.Show();
+		}
 	}
 }

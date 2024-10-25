@@ -6,3 +6,4 @@ C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\bin\Debug\RFC_ssd.pdb
 C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.exe
 C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.pdb
 C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.RFC_i.resources
+C:\Users\fenx2\Proyectos\RFC_sd\RFC_ssd\RFC_ssd\obj\Debug\RFC_ssd.AcercaDe.resources

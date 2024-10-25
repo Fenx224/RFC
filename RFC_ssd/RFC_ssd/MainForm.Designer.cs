@@ -53,6 +53,7 @@ namespace RFC_ssd
 			this.BTNcalcular = new System.Windows.Forms.Button();
 			this.LBLrfc = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
+			this.BTNacerca = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// LBLapellido2
@@ -93,7 +94,7 @@ namespace RFC_ssd
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(100, 23);
 			this.label5.TabIndex = 4;
-			this.label5.Text = "label5";
+			this.label5.Text = "Fecha";
 			// 
 			// LBLsemestre
 			// 
@@ -196,11 +197,23 @@ namespace RFC_ssd
 			this.label1.TabIndex = 20;
 			this.label1.Text = "Tu RFC es:";
 			// 
+			// BTNacerca
+			// 
+			this.BTNacerca.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BTNacerca.Location = new System.Drawing.Point(413, 407);
+			this.BTNacerca.Name = "BTNacerca";
+			this.BTNacerca.Size = new System.Drawing.Size(86, 26);
+			this.BTNacerca.TabIndex = 21;
+			this.BTNacerca.Text = "Acerca de";
+			this.BTNacerca.UseVisualStyleBackColor = true;
+			this.BTNacerca.Click += new System.EventHandler(this.BTNacercaClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(554, 445);
+			this.Controls.Add(this.BTNacerca);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.LBLrfc);
 			this.Controls.Add(this.BTNcalcular);
@@ -223,6 +236,7 @@ namespace RFC_ssd
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button BTNacerca;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label LBLrfc;
 		private System.Windows.Forms.Button BTNcalcular;
