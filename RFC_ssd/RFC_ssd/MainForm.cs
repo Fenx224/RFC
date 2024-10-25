@@ -51,9 +51,14 @@ namespace RFC_ssd
 				string paterno=apellidop.Substring(0,2);
 				string materno=apellidom.Substring(0,1);
 				string nc=paterno+materno+name;
-				
-				//Imprimimos La RFC creada//
-				LBLrfc.Text=nc.ToUpper()+fecha3+fecha2+fecha1;
+				string nc2=nombre+" "+apellidop+" "+apellidom;
+				//Creamos un objeto apartir del nuevo formulario//
+				RFC_i rfc_i = new RFC_i();
+				//Introducimos las variables en los labels hechos en el otro formulario//
+				rfc_i.LBLnombre.Text="Hola "+nc2;
+				rfc_i.LBLrfc2.Text=nc.ToUpper()+fecha1+fecha2+fecha3;
+				//Abrimos el nuevo formulario//
+				rfc_i.Show();
 			}
 			
 			//Si la condicion no se cumplio mostramos un mensaje indicando que debe llenarlos//
